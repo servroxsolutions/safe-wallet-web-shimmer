@@ -13,7 +13,6 @@ import { networks } from '@servrox/safe-core-sdk-utils-shimmer/dist/src/eip-3770
 type Chains = Record<string, string>
 
 const chains = networks.reduce<Chains>((result, { shortName, chainId }) => {
-  console.log(shortName, chainId)
   result[shortName] = chainId.toString()
   return result
 }, {})

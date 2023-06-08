@@ -3,8 +3,11 @@ import { Errors, logError } from '@/services/exceptions'
 import type { SafeTransactionEstimation, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { getTransactionDetails, Operation, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
 import type { AddOwnerTxParams, RemoveOwnerTxParams, SwapOwnerTxParams } from '@servrox/safe-core-sdk-shimmer'
-// prettier-ignore
-import type { MetaTransactionData, SafeTransaction, SafeTransactionDataPartial } from '@servrox/safe-core-sdk-types-shimmer'
+import type {
+  MetaTransactionData,
+  SafeTransaction,
+  SafeTransactionDataPartial,
+} from '@servrox/safe-core-sdk-types-shimmer'
 import { EMPTY_DATA } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/constants'
 import extractTxInfo from '../extractTxInfo'
 import { getAndValidateSafeSDK } from './sdk'

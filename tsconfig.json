@@ -17,12 +17,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"],
-
-      "@safe-global/safe-deployments": ["./node_modules/@servrox/safe-deployments-shimmer"]
+      "@/public/*": ["./public/*"]
     },
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": ["node_modules", "next-env.d.ts", "src/definitions.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["src/types/contracts"]
+  "include": ["next-env.d.ts", "src/definitions.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "src/types/contracts"]
 }

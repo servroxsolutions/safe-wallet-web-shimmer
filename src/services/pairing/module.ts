@@ -56,14 +56,11 @@ const pairingModule = (): WalletInit => {
           public chains: Chain[]
           public disconnect: EIP1193Provider['disconnect']
           // @ts-expect-error - 'emit' does not exist on `typeof EventEmitter`
-          // prettier-ignore
-          public emit: typeof EventEmitter['emit']
+          public emit: typeof EventEmitter.emit
           // @ts-expect-error - 'on' does not exist on `typeof EventEmitter`
-          // prettier-ignore
-          public on: typeof EventEmitter['on']
+          public on: typeof EventEmitter.on
           // @ts-expect-error - 'removeListener' does not exist on `typeof EventEmitter`
-          // prettier-ignore
-          public removeListener: typeof EventEmitter['removeListener']
+          public removeListener: typeof EventEmitter.removeListener
 
           private disconnected$: InstanceType<typeof Subject>
           private providers: Record<string, InstanceType<typeof StaticJsonRpcProvider>>
@@ -78,7 +75,6 @@ const pairingModule = (): WalletInit => {
             this.disconnected$ = new Subject()
             this.providers = {}
 
-            // @ts-expect-error - `payload` type (`ISessionStatus`) is not correctly `pipe`ed
             fromEvent(this.connector, ProviderEvents.WC_SESSION_UPDATE, (error, payload) => {
               if (error) {
                 throw error
@@ -97,7 +93,6 @@ const pairingModule = (): WalletInit => {
                 error: console.warn,
               })
 
-            // @ts-expect-error - `this.connector` does not satisfy the event target type
             fromEvent(this.connector, ProviderEvents.DISCONNECT, (error, payload) => {
               if (error) {
                 throw error
@@ -150,7 +145,6 @@ const pairingModule = (): WalletInit => {
                       return resolve(accounts)
                     }
 
-                    // @ts-ignore
                     fromEvent(this.connector, ProviderEvents.CONNECT, (error, payload) => {
                       if (error) {
                         throw error
