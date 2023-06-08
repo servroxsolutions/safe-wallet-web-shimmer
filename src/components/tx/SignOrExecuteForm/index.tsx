@@ -1,6 +1,6 @@
 import { type ReactElement, type ReactNode, type SyntheticEvent, useEffect, useState } from 'react'
 import { Box, Button, DialogContent, Typography } from '@mui/material'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 
 import useGasLimit from '@/hooks/useGasLimit'
 import ErrorMessage from '@/components/tx/ErrorMessage'

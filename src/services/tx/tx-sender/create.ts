@@ -2,12 +2,12 @@ import { isLegacyVersion } from '@/hooks/coreSDK/safeCoreSDK'
 import { Errors, logError } from '@/services/exceptions'
 import type { SafeTransactionEstimation, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { getTransactionDetails, Operation, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
-import type { AddOwnerTxParams, RemoveOwnerTxParams, SwapOwnerTxParams } from '@safe-global/safe-core-sdk'
-import type { MetaTransactionData, SafeTransaction, SafeTransactionDataPartial } from '@safe-global/safe-core-sdk-types'
-import { EMPTY_DATA } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import type { AddOwnerTxParams, RemoveOwnerTxParams, SwapOwnerTxParams } from '@servrox/safe-core-sdk-shimmer'
+import type { MetaTransactionData, SafeTransaction, SafeTransactionDataPartial } from '@servrox/safe-core-sdk-types-shimmer'
+import { EMPTY_DATA } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/constants'
 import extractTxInfo from '../extractTxInfo'
 import { getAndValidateSafeSDK } from './sdk'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@servrox/safe-core-sdk-shimmer'
 
 const estimateSafeTxGas = async (
   chainId: string,

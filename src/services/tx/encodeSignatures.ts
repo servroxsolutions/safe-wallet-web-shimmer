@@ -1,5 +1,5 @@
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
-import { generatePreValidatedSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
+import type { SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
+import { generatePreValidatedSignature } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/signatures'
 
 export const encodeSignatures = (safeTx: SafeTransaction, from?: string): string => {
   const owner = from?.toLowerCase()

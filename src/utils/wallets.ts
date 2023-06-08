@@ -6,7 +6,7 @@ import type { EthersError } from '@/utils/ethers-utils'
 import { ErrorCode } from '@ethersproject/logger'
 import { type ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import { getWeb3ReadOnly } from '@/hooks/wallets/web3'
-import { EMPTY_DATA } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { EMPTY_DATA } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/constants'
 import { WALLET_KEYS } from '@/hooks/wallets/consts'
 
 const isWCRejection = (err: Error): boolean => {

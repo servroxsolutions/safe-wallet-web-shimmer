@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import type { SafeTransaction, SafeSignature } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction, SafeSignature } from '@servrox/safe-core-sdk-types-shimmer'
 import * as useWallet from '@/hooks/wallets/useWallet'
 import { act, renderHook } from '@/tests/test-utils'
 import useIsValidExecution from '../useIsValidExecution'
@@ -9,7 +9,7 @@ import * as web3 from '@/hooks/wallets/web3'
 import { JsonRpcProvider, Web3Provider } from '@ethersproject/providers'
 import { type EIP1193Provider } from '@web3-onboard/core'
 import * as contracts from '@/services/contracts/safeContracts'
-import type GnosisSafeContractEthers from '@safe-global/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
+import type GnosisSafeContractEthers from '@servrox/safe-ethers-lib-shimmer/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
 
 const createSafeTx = (data = '0x'): SafeTransaction => {
   return {

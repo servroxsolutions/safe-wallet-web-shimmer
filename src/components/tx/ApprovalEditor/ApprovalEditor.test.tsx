@@ -14,7 +14,7 @@ import { type DecodedDataResponse, type SafeBalanceResponse, TokenType } from '@
 import { hexlify, hexZeroPad, Interface } from 'ethers/lib/utils'
 import { ERC20__factory, Multi_send__factory } from '@/types/contracts'
 import type { BaseTransaction } from '@safe-global/safe-apps-sdk'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import { encodeMultiSendData } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/transactions/utils'
 import { parseUnits } from '@ethersproject/units'
 
 const PREFIX_TEXT = 'Approve access to'

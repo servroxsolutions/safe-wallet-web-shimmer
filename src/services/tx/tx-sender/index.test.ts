@@ -1,6 +1,6 @@
 import { setSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
-import type Safe from '@safe-global/safe-core-sdk'
-import { type TransactionResult } from '@safe-global/safe-core-sdk-types'
+import type Safe from '@servrox/safe-core-sdk-shimmer'
+import { type TransactionResult } from '@servrox/safe-core-sdk-types-shimmer'
 import { type TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { getTransactionDetails, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
 import extractTxInfo from '../extractTxInfo'
@@ -19,7 +19,7 @@ import { ErrorCode } from '@ethersproject/logger'
 import { waitFor } from '@/tests/test-utils'
 import { ethers } from 'ethers'
 import * as safeContracts from '@/services/contracts/safeContracts'
-import type MultiSendCallOnlyEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/MultiSendCallOnly/MultiSendCallOnlyEthersContract'
+import type MultiSendCallOnlyEthersContract from '@servrox/safe-ethers-lib-shimmer/dist/src/contracts/MultiSendCallOnly/MultiSendCallOnlyEthersContract'
 
 const setupFetchStub = (data: any) => (_url: string) => {
   return Promise.resolve({

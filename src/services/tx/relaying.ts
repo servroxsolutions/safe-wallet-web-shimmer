@@ -1,4 +1,4 @@
-import { type SafeTransactionData } from '@safe-global/safe-core-sdk-types'
+import { type SafeTransactionData } from '@servrox/safe-core-sdk-types-shimmer'
 import { IS_PRODUCTION, SAFE_RELAY_SERVICE_URL_PRODUCTION, SAFE_RELAY_SERVICE_URL_STAGING } from '@/config/constants'
 import { cgwDebugStorage } from '@/components/sidebar/DebugToggle'
 

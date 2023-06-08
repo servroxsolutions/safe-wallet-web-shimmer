@@ -1,4 +1,4 @@
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 import { txDispatch, txSubscribe, TxEvent } from '../txEvents'
 
 const tx = {

@@ -3,7 +3,7 @@ import { UNLIMITED_APPROVAL_AMOUNT } from '@/utils/tokens'
 import type { BaseTransaction } from '@safe-global/safe-apps-sdk'
 import type { DecodedDataResponse, TokenInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { parseUnits, id } from 'ethers/lib/utils'
-import { EMPTY_DATA } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { EMPTY_DATA } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/constants'
 
 export const APPROVAL_SIGNATURE_HASH = id('approve(address,uint256)').slice(0, 10)
 

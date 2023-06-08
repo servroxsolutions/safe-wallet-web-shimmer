@@ -441,7 +441,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk</TableCell>
+                <TableCell>@servrox/safe-core-sdk-shimmer</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -449,7 +449,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk-utils</TableCell>
+                <TableCell>@servrox/safe-core-sdk-utils-shimmer</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -465,7 +465,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-ethers-lib</TableCell>
+                <TableCell>@servrox/safe-ethers-lib-shimmer</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md

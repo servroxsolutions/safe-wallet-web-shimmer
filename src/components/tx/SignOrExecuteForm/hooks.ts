@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { type TransactionOptions, type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { type TransactionOptions, type SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 import useSafeInfo from '@/hooks/useSafeInfo'
 import useWallet from '@/hooks/wallets/useWallet'
 import useOnboard from '@/hooks/wallets/useOnboard'
@@ -12,7 +12,7 @@ import {
   dispatchTxSigning,
 } from '@/services/tx/tx-sender'
 import { useHasPendingTxs } from '@/hooks/usePendingTxs'
-import { sameString } from '@safe-global/safe-core-sdk/dist/src/utils'
+import { sameString } from '@servrox/safe-core-sdk-shimmer/dist/src/utils'
 import type { ConnectedWallet } from '@/services/onboard'
 import type { OnboardAPI } from '@web3-onboard/core'
 import { hasEnoughSignatures } from '@/utils/transactions'

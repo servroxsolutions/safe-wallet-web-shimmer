@@ -1,4 +1,4 @@
-import { networks } from '@safe-global/safe-core-sdk-utils/dist/src/eip-3770/config'
+import { networks } from '@servrox/safe-core-sdk-utils-shimmer/dist/src/eip-3770/config'
 
 /**
  * A static shortName<->chainId dictionary

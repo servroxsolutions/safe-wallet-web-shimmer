@@ -1,5 +1,5 @@
 import { act, fireEvent, render } from '@/tests/test-utils'
-import { type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { type SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 import * as gatewayMethods from '@safe-global/safe-gateway-typescript-sdk'
 import DecodedTx from '.'
 

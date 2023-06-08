@@ -1,6 +1,6 @@
 import { type SyntheticEvent, type ReactElement, useMemo } from 'react'
 import { Accordion, AccordionDetails, AccordionSummary, Box, Skeleton, Typography } from '@mui/material'
-import { OperationType, type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { OperationType, type SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 import {
   type DecodedDataResponse,
   getDecodedData,

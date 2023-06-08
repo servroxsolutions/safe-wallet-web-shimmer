@@ -7,7 +7,7 @@ import * as coreSDK from '@/hooks/coreSDK/safeCoreSDK'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
 import { act } from '@testing-library/react'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@servrox/safe-core-sdk-shimmer'
 import type { JsonRpcProvider } from '@ethersproject/providers'
 
 describe('useInitSafeCoreSDK hook', () => {

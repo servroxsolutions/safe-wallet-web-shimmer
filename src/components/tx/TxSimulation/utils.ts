@@ -1,8 +1,8 @@
-import { generatePreValidatedSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
-import EthSafeTransaction from '@safe-global/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import { generatePreValidatedSignature } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/signatures'
+import EthSafeTransaction from '@servrox/safe-core-sdk-shimmer/dist/src/utils/transactions/SafeTransaction'
+import { encodeMultiSendData } from '@servrox/safe-core-sdk-shimmer/dist/src/utils/transactions/utils'
 import { type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { MetaTransactionData, SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { MetaTransactionData, SafeTransaction } from '@servrox/safe-core-sdk-types-shimmer'
 
 import {
   getReadOnlyMultiSendCallOnlyContract,
