@@ -56,10 +56,13 @@ const pairingModule = (): WalletInit => {
           public chains: Chain[]
           public disconnect: EIP1193Provider['disconnect']
           // @ts-expect-error - 'emit' does not exist on `typeof EventEmitter`
+          // prettier-ignore
           public emit: typeof EventEmitter['emit']
           // @ts-expect-error - 'on' does not exist on `typeof EventEmitter`
+          // prettier-ignore
           public on: typeof EventEmitter['on']
           // @ts-expect-error - 'removeListener' does not exist on `typeof EventEmitter`
+          // prettier-ignore
           public removeListener: typeof EventEmitter['removeListener']
 
           private disconnected$: InstanceType<typeof Subject>

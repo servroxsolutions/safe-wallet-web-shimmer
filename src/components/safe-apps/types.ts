@@ -40,6 +40,7 @@ const FEATURES = [
   'speaker-selection',
 ]
 
+// prettier-ignore
 export type AllowedFeatures = typeof FEATURES[number]
 
 export const isBrowserFeature = (featureKey: string): featureKey is AllowedFeatures => {
