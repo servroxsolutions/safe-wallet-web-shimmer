@@ -7,7 +7,7 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   type SingletonDeployment,
-} from '@safe-global/safe-deployments'
+} from '@aaron-roe/safe-deployments-shimmer'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import semverSatisfies from 'semver/functions/satisfies'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
@@ -191,7 +191,6 @@ export const getReadOnlyFallbackHandlerContract = (
   safeVersion: string = LATEST_SAFE_VERSION,
 ): CompatibilityFallbackHandlerEthersContract => {
   const ethAdapter = createReadOnlyEthersAdapter()
-
   return ethAdapter.getCompatibilityFallbackHandlerContract({
     singletonDeployment: getFallbackHandlerContractDeployment(chainId),
     ..._getValidatedGetContractProps(chainId, safeVersion),

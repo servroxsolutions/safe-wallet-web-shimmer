@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@aaron-roe/safe-deployments-shimmer@^1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@aaron-roe/safe-deployments-shimmer/-/safe-deployments-shimmer-1.23.0.tgz#304987327de245857a7e771759392e8930319987"
+  integrity sha512-iOrJgM6nuD+Gwk28SD6BsBLrGMWuQEo1/z82H7BUvBtyavokXCLC6UYTEiQZydFN2t+avH0k5ps4D+1zFE9oOg==
+  dependencies:
+    semver "^7.3.7"
+
 "@adobe/css-tools@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.0.1.tgz#b38b444ad3aa5fedbb15f2f746dcd934226a12dd"

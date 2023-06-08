@@ -17,7 +17,17 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
+      "@/public/*": ["./public/*"],
+      "@safe-global/safe-core-sdk": ["../safe-core-sdk/packages/safe-core-sdk/dist/src/index.js"],
+      "@safe-global/safe-core-sdk-types": ["../safe-core-sdk/packages/safe-core-sdk-types/dist/src/index.js"],
+      "@safe-global/safe-core-sdk-utils/*": ["../safe-core-sdk/packages/safe-core-sdk-utils/*"],
+      "@safe-global/safe-core-sdk-utils": ["../safe-core-sdk/packages/safe-core-sdk-utils/dist/src/index.js"],
+      "@safe-global/safe-ethers-adapters": ["../safe-core-sdk/packages/safe-ethers-adapters/dist/src/index.js"],
+      "@safe-global/safe-ethers-lib": ["../safe-core-sdk/packages/safe-ethers-lib/dist/src/index.js"],
+      "@safe-global/safe-service-client": ["../safe-core-sdk/packages/safe-service-client/dist/src/index.js"],
+      "@safe-global/safe-web3-lib": ["../safe-core-sdk/packages/safe-web3-lib/dist/src/index.js"],
+
+
     },
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
