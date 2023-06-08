@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:16-alpine
 RUN apk add --no-cache libc6-compat git python3 py3-pip make g++
 WORKDIR /app
 COPY . .
@@ -17,6 +17,4 @@ EXPOSE 3000
 
 ENV PORT 3000
 
-RUN yarn build && yarn export
-
-CMD ["yarn", "serve"]
+CMD ["yarn", "static-serve"]
