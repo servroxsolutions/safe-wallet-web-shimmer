@@ -87,9 +87,9 @@ const Footer = (): ReactElement | null => {
           <a href="https://servrox.solutions/" style={{ color: '#858585' }}>
             &nbsp;servrox solutions&nbsp;
           </a>
-          {'on behalf of'}
+          {'on behalf of the'}
           <a href="https://iota.org/" style={{ color: '#0fc1b7' }}>
-            &nbsp;the IOTA Foundation
+            &nbsp;IOTA Foundation
           </a>
           {'.'}
         </li>
