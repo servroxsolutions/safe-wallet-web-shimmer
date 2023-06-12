@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import css from './styles.module.css'
 import { AppRoutes } from '@/config/routes'
 import packageJson from '../../../../package.json'
-import AppstoreButton from '../AppStoreButton'
 import ExternalLink from '../ExternalLink'
 import MUILink from '@mui/material/Link'
 import { IS_OFFICIAL_HOST } from '@/config/constants'
@@ -69,7 +68,13 @@ const Footer = (): ReactElement | null => {
             </li>
           </>
         ) : (
-          <li>{'This is an unofficial distribution of Safe{Wallet}'}</li>
+          <li>
+            {'Official distribution of Safe{Wallet} on'}
+            <a href="https://shimmer.network/" style={{ color: '#00E0CA' }}>
+              &nbsp;shimmer
+            </a>
+            {'.'}
+          </li>
         )}
 
         <li>
@@ -77,8 +82,16 @@ const Footer = (): ReactElement | null => {
             v{packageJson.version}
           </ExternalLink>
         </li>
-        <li>
-          <AppstoreButton placement="footer" />
+        <li style={{ textAlign: 'center' }}>
+          {'Operated and maintained by'}
+          <a href="https://servrox.solutions/" style={{ color: '#858585' }}>
+            &nbsp;servrox solutions&nbsp;
+          </a>
+          {'on behalf of'}
+          <a href="https://iota.org/" style={{ color: '#0fc1b7' }}>
+            &nbsp;the IOTA Foundation
+          </a>
+          {'.'}
         </li>
       </ul>
     </footer>
