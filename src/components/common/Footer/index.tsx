@@ -70,7 +70,7 @@ const Footer = (): ReactElement | null => {
         ) : (
           <li>
             {'Official distribution of Safe{Wallet} on'}
-            <a href="https://shimmer.network/" style={{ color: '#00E0CA' }}>
+            <a target="_blank" href="https://shimmer.network/" style={{ color: '#00E0CA' }} rel="noreferrer">
               &nbsp;shimmer
             </a>
             {'.'}
@@ -84,11 +84,11 @@ const Footer = (): ReactElement | null => {
         </li>
         <li style={{ textAlign: 'center' }}>
           {'Operated and maintained by'}
-          <a href="https://servrox.solutions/" style={{ color: '#858585' }}>
+          <a target="_blank" href="https://servrox.solutions/" style={{ color: '#858585' }} rel="noreferrer">
             &nbsp;servrox solutions&nbsp;
           </a>
           {'on behalf of the'}
-          <a href="https://iota.org/" style={{ color: '#0fc1b7' }}>
+          <a target="_blank" href="https://iota.org/" style={{ color: '#0fc1b7' }} rel="noreferrer">
             &nbsp;IOTA Foundation
           </a>
           {'.'}
