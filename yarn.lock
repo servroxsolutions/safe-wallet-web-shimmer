@@ -3229,50 +3229,50 @@
     "@sentry/types" "7.54.0"
     tslib "^1.9.3"
 
-"@servrox/safe-core-sdk-shimmer@^3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-shimmer/-/safe-core-sdk-shimmer-3.3.2.tgz#93398f4698ed00d9b2d461b10329308c136180bd"
-  integrity sha512-Vbvc9xgevlonBazt+XcUmHyrnLTHu0qL8PZB44aYnLmO+3eUFIrl++n70q+PXOiyku+8of/BECULrQ+ifivYoA==
+"@servrox/safe-core-sdk-shimmer@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-shimmer/-/safe-core-sdk-shimmer-3.3.3.tgz#7b42836d01ce67a46cda57300e02e7d3ef0ff097"
+  integrity sha512-kzvYFqIaWdwBEgkrVJMb4+3a8Xgqe9ZvdIwb2HRFqQy+ehWRze/wHClPbafsq2Ttbk8s4g99uZ5i1kIgV8OruQ==
   dependencies:
     "@ethersproject/solidity" "^5.7.0"
     "@safe-global/safe-core-sdk-types" "^1.9.0"
     "@safe-global/safe-core-sdk-utils" "^1.7.2"
-    "@servrox/safe-deployments-shimmer" "^1.23.0"
+    "@servrox/safe-deployments-shimmer" "^1.23.1"
     ethereumjs-util "^7.1.5"
     semver "^7.3.8"
     web3-utils "^1.8.1"
 
-"@servrox/safe-core-sdk-types-shimmer@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-types-shimmer/-/safe-core-sdk-types-shimmer-1.9.0.tgz#04bfaeb4b298fad7ff6734c1f3cd068d80e8fa68"
-  integrity sha512-+iz9PSkxBysfk4CEazhVXSHnyGmNXHg7O2LcUIiy8I8c5vb1D7pD8YyFgI5JQEGfKDzTDLDSESvrtd7RkOrIzw==
+"@servrox/safe-core-sdk-types-shimmer@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-types-shimmer/-/safe-core-sdk-types-shimmer-1.9.1.tgz#d5c6d400840d7aa6d9aa00113fe9ddc9f4110893"
+  integrity sha512-TT8PyRIg1sDW3WjLNodnFTXaOS/TosMllyyEE/U4cICuwfLlaQWKd9tdOh8Eq94Gr+moJMIPbpskkT+IyAeTWA==
   dependencies:
     "@ethersproject/bignumber" "^5.7.0"
     "@ethersproject/contracts" "^5.7.0"
-    "@servrox/safe-deployments-shimmer" "^1.23.0"
+    "@servrox/safe-deployments-shimmer" "^1.23.1"
     web3-core "^1.8.1"
     web3-utils "^1.8.1"
 
-"@servrox/safe-core-sdk-utils-shimmer@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-utils-shimmer/-/safe-core-sdk-utils-shimmer-1.7.2.tgz#173e3dbeb0318960cb4e10394d98fd818a48acb8"
-  integrity sha512-oX8ric9rH7M+U0L8CJE6a7tNE8hcKctW1ujc1BOG3C27UvtQQPRS2gUhjNCssOifxpsTS8vedI4ru5QzSLPmsw==
+"@servrox/safe-core-sdk-utils-shimmer@^1.7.3":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@servrox/safe-core-sdk-utils-shimmer/-/safe-core-sdk-utils-shimmer-1.7.4.tgz#d424389af324a5c130e452828b25258ac1a692c3"
+  integrity sha512-+ZV1zqlvewkUrBbxN/+FATCGmGLhFW7wz5M0JNKW92vMXmwmI9jWaem/hCImENkSqbcml+gMSZM0hUfjNKvDFA==
   dependencies:
     "@safe-global/safe-core-sdk-types" "^1.9.0"
     semver "^7.3.8"
     web3-utils "^1.8.1"
 
-"@servrox/safe-deployments-shimmer@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@servrox/safe-deployments-shimmer/-/safe-deployments-shimmer-1.23.0.tgz#065d352115374dcf906d213ba29481a05422a416"
-  integrity sha512-6PX3cRD/EDrj8+BTKFQM0+qtUGyUiWB7lH2X5Y68V39TI1BeLvpnd22DZDvbyS2mJWW4099ZNMNwz72pofIWRQ==
+"@servrox/safe-deployments-shimmer@^1.23.1":
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/@servrox/safe-deployments-shimmer/-/safe-deployments-shimmer-1.23.1.tgz#c7eba6e4f642a43062b045d15ac32b1a4605dea8"
+  integrity sha512-eD2mgoKvzW+5wctoI3+fL0tbwwgkI1zi7izINfbZUfQVjHvVvbKihjKAnsKTAqrBodhIqVEzBGm9b6lVWire1g==
   dependencies:
     semver "^7.3.7"
 
-"@servrox/safe-ethers-lib-shimmer@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@servrox/safe-ethers-lib-shimmer/-/safe-ethers-lib-shimmer-1.9.3.tgz#9b43f88864cf27eb73da599066aee4e7a192f04c"
-  integrity sha512-wENr6BoKx+n2wycRMmktcR8VaFj73IE+xWwzftHqbZmdvJktL8bpXM2R4ZaHc6CCE2fnS58q9gDFUefPj1zTNw==
+"@servrox/safe-ethers-lib-shimmer@^1.9.5":
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@servrox/safe-ethers-lib-shimmer/-/safe-ethers-lib-shimmer-1.9.5.tgz#f3ba6d23d88dbd6b890ed8ee91c6ef787b63e842"
+  integrity sha512-JWa7PxVDaSMpepy+rLMUZN56L133rfreCbn9DU/DZ90fQNdxQ7nctfzEcH9+EHBu9/pRrwRIfOo8ejz3O2UPrw==
   dependencies:
     "@safe-global/safe-core-sdk-types" "^1.9.0"
     "@safe-global/safe-core-sdk-utils" "^1.7.2"

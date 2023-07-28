@@ -50,7 +50,7 @@
     "@servrox/safe-core-sdk-shimmer": "^3.3.3",
     "@servrox/safe-core-sdk-utils-shimmer": "^1.7.3",
     "@servrox/safe-deployments-shimmer": "^1.23.1",
-    "@servrox/safe-ethers-lib-shimmer": "^1.9.4",
+    "@servrox/safe-ethers-lib-shimmer": "^1.9.5",
     "@truffle/hdwallet-provider": "^2.1.4",
     "@web3-onboard/coinbase": "^2.1.3",
     "@web3-onboard/core": "2.20.0",
